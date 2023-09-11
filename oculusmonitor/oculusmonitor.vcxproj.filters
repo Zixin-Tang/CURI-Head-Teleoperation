@@ -65,5 +65,8 @@
     <ClCompile Include="vrstate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="headposition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

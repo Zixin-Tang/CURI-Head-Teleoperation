@@ -10,7 +10,8 @@
 #include "OVR_CAPI.h"
 #include "Extras/OVR_Math.h"
 #include <vector>
-
+#include <fstream>
+#include <string>
 struct VRState
 {
 	float time;
