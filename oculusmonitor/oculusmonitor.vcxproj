@@ -169,7 +169,6 @@
     <ClInclude Include="vrstate.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="headposition.cpp" />
     <ClCompile Include="imgui.cpp" />
     <ClCompile Include="imgui_demo.cpp" />
     <ClCompile Include="imgui_draw.cpp" />

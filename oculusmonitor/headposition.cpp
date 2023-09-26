@@ -1,7 +1,7 @@
 #include <iostream>
 #include "OVR_CAPI.h"
 
-int main() {
+void head_position() {
     ovrResult result = ovr_Initialize(nullptr);
     if (OVR_FAILURE(result)) {
         std::cerr << "Failed to initialize the Oculus SDK\n";
