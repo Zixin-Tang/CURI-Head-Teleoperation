@@ -1,5 +1,6 @@
-#pragma // NetworkFunctions.h
-#pragma once
 
-void sendPanTiltOverWifi(float pan, float tilt);
+#pragma once
+#include <windows.h>
+
+bool sendPanTiltCommand(HANDLE hSerial, int panPosition, int tiltPosition);
 
